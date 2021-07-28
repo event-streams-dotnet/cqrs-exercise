@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E90D8542-42BD-4C36-8B7D-81C8C8DA14B0}"
+ProjectSection(SolutionItems) = preProject
+	ReadMe.md = ReadMe.md
+	global.json = global.json
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dapr", "dapr", "{D91598EC-7D19-4782-B852-04F9122E3BC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{86EC388A-CBFE-432E-939F-9AED73AE633A}"
+ProjectSection(SolutionItems) = preProject
+	dapr\components\pubsub.yaml = dapr\components\pubsub.yaml
+	dapr\components\snssqs-pubsub.yaml = dapr\components\snssqs-pubsub.yaml
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "json", "json", "{D0CAD6C4-2C53-4CAE-A54F-A1710840C5AB}"
+ProjectSection(SolutionItems) = preProject
+	json\customers.json = json\customers.json
+	json\orders.json = json\orders.json
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{E77D1BB2-A180-4518-B84D-6E6AAB60361F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService", "CustomerService\CustomerService.csproj", "{2848311E-4AE1-41FA-BEC6-46A3FE9D2F39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{17B045C9-7E2E-4766-85EC-7D2E5A297C8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D91598EC-7D19-4782-B852-04F9122E3BC1} = {E90D8542-42BD-4C36-8B7D-81C8C8DA14B0}
+		{86EC388A-CBFE-432E-939F-9AED73AE633A} = {D91598EC-7D19-4782-B852-04F9122E3BC1}
+		{D0CAD6C4-2C53-4CAE-A54F-A1710840C5AB} = {E90D8542-42BD-4C36-8B7D-81C8C8DA14B0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E77D1BB2-A180-4518-B84D-6E6AAB60361F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77D1BB2-A180-4518-B84D-6E6AAB60361F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77D1BB2-A180-4518-B84D-6E6AAB60361F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77D1BB2-A180-4518-B84D-6E6AAB60361F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2848311E-4AE1-41FA-BEC6-46A3FE9D2F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2848311E-4AE1-41FA-BEC6-46A3FE9D2F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2848311E-4AE1-41FA-BEC6-46A3FE9D2F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2848311E-4AE1-41FA-BEC6-46A3FE9D2F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B045C9-7E2E-4766-85EC-7D2E5A297C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B045C9-7E2E-4766-85EC-7D2E5A297C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B045C9-7E2E-4766-85EC-7D2E5A297C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B045C9-7E2E-4766-85EC-7D2E5A297C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
